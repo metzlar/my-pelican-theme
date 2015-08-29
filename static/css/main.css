@@ -2,16 +2,29 @@
   Colors
 *****/
 
+
+
 nav{
-    background-color:#2196f3;
+    background-color:#607d8b;
 }
 
 footer.page-footer{
-    background-color:#2196f3;
+    background-color:#607d8b;
 }
 
 
 a.brand-logo{
 
-	font-family: 'Slackey', cursive;
-}
+font-family: 'Playfair Display SC', serif;
+
+} 
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
